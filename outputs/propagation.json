@@ -1,0 +1,95 @@
+{
+  "estimated": {
+    "rho1": 0.8161822265560892,
+    "rho2": 1.7112307336229322,
+    "rho3": 0.7920091230630101
+  },
+  "true_direct": {
+    "RHO1": 0.75,
+    "RHO2": 0.9,
+    "RHO3": 0.8
+  },
+  "by_status": {
+    "Baseline": {
+      "0": 13.85,
+      "1": 13.85
+    },
+    "Origin departure": {
+      "0": -1.49,
+      "1": 1.5
+    },
+    "Sea transit / port arrival": {
+      "0": -2.24,
+      "1": 2.13
+    },
+    "Customs & port processing": {
+      "0": -2.35,
+      "1": 2.45
+    },
+    "Last mile": {
+      "0": -2.24,
+      "1": 2.64
+    }
+  },
+  "by_route": {
+    "Origin departure": {
+      "Hamburg->New York": -1.45,
+      "Mumbai->Rotterdam": 0.52,
+      "Mumbai->Singapore": -0.8,
+      "Shanghai->Los Angeles": 3.01,
+      "Shanghai->Rotterdam": -0.06,
+      "Singapore->Sydney": -1.29
+    },
+    "Sea transit / port arrival": {
+      "Hamburg->New York": -1.17,
+      "Mumbai->Rotterdam": 1.0,
+      "Mumbai->Singapore": -1.69,
+      "Shanghai->Los Angeles": -0.61,
+      "Shanghai->Rotterdam": 4.17,
+      "Singapore->Sydney": -2.58
+    },
+    "Customs & port processing": {
+      "Hamburg->New York": -1.76,
+      "Mumbai->Rotterdam": -0.9,
+      "Mumbai->Singapore": -2.27,
+      "Shanghai->Los Angeles": 2.68,
+      "Shanghai->Rotterdam": -0.61,
+      "Singapore->Sydney": 3.56
+    },
+    "Last mile": {
+      "Hamburg->New York": -1.81,
+      "Mumbai->Rotterdam": -0.56,
+      "Mumbai->Singapore": 1.2,
+      "Shanghai->Los Angeles": 2.15,
+      "Shanghai->Rotterdam": -0.72,
+      "Singapore->Sydney": 0.68
+    },
+    "total": {
+      "Hamburg->New York": -6.18,
+      "Mumbai->Rotterdam": 0.06,
+      "Mumbai->Singapore": -3.56,
+      "Shanghai->Los Angeles": 7.23,
+      "Shanghai->Rotterdam": 2.78,
+      "Singapore->Sydney": 0.37
+    }
+  },
+  "worst": "SH0233",
+  "importance": {
+    "T1_port_arrival": {
+      "cong_x_arr_delay": 2.176,
+      "proj_clear_weekend": 1.176,
+      "port_arr_delay": 0.24,
+      "port_congestion": 0.217,
+      "dep_delay": 0.091,
+      "sched_transit_h": 0.059
+    },
+    "T2_customs_clear": {
+      "customs_delay": 6.563,
+      "proj_clear_weekend": 2.754,
+      "customs_excess": 0.293,
+      "cong_x_arr_delay": 0.196,
+      "port_arr_delay": 0.069,
+      "sched_transit_h": 0.04
+    }
+  }
+}
